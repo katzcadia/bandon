@@ -1,0 +1,303 @@
+.legend {
+    line-height: 16px;
+    width: 140px;
+    color: #333333;
+    font-family: 'Cabin Sketch', cursive;
+    padding: 6px 8px;
+    background: white;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.legend i {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.9;
+}
+
+.legend img {
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    float: left;
+}
+
+.legend p {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+}
+
+.leaflet-tooltip.feature-label {
+    background-color: transparent;
+    border: transparent;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Cabin Sketch', cursive;
+    text-shadow: 0 0 2px #000000;
+    color: rgba(255, 255, 255, 0.78)
+}
+
+.grad-marker {
+    color: orange;
+    text-shadow: 0 0 1px rgb(0, 0, 0);
+}
+
+.bandon-marker {
+    color: orange;
+    text-shadow: 0 0 1px rgb(0, 0, 0);
+}
+
+.camp-marker {
+    color: orange;
+    text-shadow: 0 0 1px rgb(0, 0, 0);
+}
+
+.charleston-marker {
+    color: orange;
+    text-shadow: 0 0 1px rgb(0, 0, 0);
+}
+
+.umpqua-marker {
+    color: orange;
+    text-shadow: 0 0 1px rgb(0, 0, 0);
+}
+
+.recap-marker {
+    color: orange;
+    text-shadow: 0 0 1px rgb(0, 0, 0);
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.leaflet-marker-photo{
+    width: 80px !important;
+    height: 60px !important;
+}
+
+.leaflet-popup-content{
+    padding: 0;
+    margin: 0;
+}
+
+.leaflet-popup-content p {
+    margin: 10px 0;
+}
+
+.popup-container img{
+    max-width: 100% !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.leaflet-popup-content-wrapper{
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.popup-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popup-caption{
+    padding: 0 10px;
+    font-weight: bold;
+    margin-bottom: 5px !important;
+}
+
+.popup-description{
+    padding: 0 10px;
+    margin-top: 0px !important;
+}
+
+.popup-date{
+    flex-basis: 50px;
+    padding: 0 10px;
+    margin-bottom: 5px !important;
+}
+
+
+a.leaflet-popup-close-button{
+    font-size: 25px !important;
+    padding-top: 7px !important;
+    width: 23px !important;
+}
+
+a.leaflet-popup-close-button:hover{
+    color: white !important;
+}
+
+@font-face {
+    font-family: 'Cabin Sketch', cursive;
+    src: url('fonts/CabinSketch-Regular.ttf');
+}
+
+#text-box{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.text-box-title{
+    font-size: 28px;
+    font-family: 'Cabin Sketch', cursive;
+    margin: 0;
+}
+
+.text-box-descr{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+@media  (max-width: 400px) {
+    #text-box{
+        display: none;
+    }
+
+    .leaflet-popup{
+        width: 250px !important;
+    }
+
+    .popup-container{
+        width: 246px;
+    }
+}
+
+.embedded-photo img {
+    /*margin-top:20px;*/
+    /*margin: 4px 4px 4px 4px;*/
+    /*box-shadow: 0 0 0 4px #fff;*/
+    /*border: 1px solid #ddd;*/
+    /*border-radius: 1px;*/
+    /*padding: 5px;*/
+    background-color: white;
+    /*max-width: 472px;*/
+    height: 300px !important;
+    opacity: 1;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.embedded-photo p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#bandon-scene {
+    display: block;
+    /*overflow: auto;*/
+    /*max-height: 50%;*/
+    height: 575px;
+}
+#crabbing-scene {
+    display: block;
+    /*overflow: auto;*/
+    height: 880px;
+}
+section.viewing {
+    opacity: 1;
+}
+.center {
+    margin:auto;
+    width:80%;
+}
+
+.embedded-360 {
+    display: block;
+    height: 550px;
+    width: 100%;
+    opacity:.98;
+}
+
+.valiant2 a.fullscreenButton {
+    display: none;
+}
+.snap-video{
+    margin:auto;
+    display: block;
+    height:50%;
+    width: 50%;
+    opacity:.98;
+}
+
+#email-icon {
+    position: relative;
+    top: 4px;
+}
+
+.titles {
+    color: white;
+}
+.titles a:link {
+    color: white;
+    text-decoration: none;
+}
+.titles a:visited {
+    color: white;
+    text-decoration: underline;
+}
+.titles a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.titles a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.modal-body a:link {
+    color: black;
+    text-decoration: none;
+}
+.modal-body a:visited {
+    color: orange;
+    text-decoration: underline;
+}
+.modal-body a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+.modal-body a:active {
+    color: black;
+    text-decoration: none;
+}
+
+#umpqua-text {
+    position: fixed;
+    top: 33%;
+    left: 33%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
