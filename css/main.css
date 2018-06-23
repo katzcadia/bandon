@@ -301,3 +301,6 @@ section.viewing {
     margin-left: 20px;
     margin-right: 20px;
 }
+video::-webkit-media-controls-fullscreen-button {
+    display: none;
+}
